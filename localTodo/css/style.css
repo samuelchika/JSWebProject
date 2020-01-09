@@ -1,0 +1,389 @@
+body{
+  margin: 0;
+  padding: 0;
+  line-height: 1.8em;
+  word-spacing: 0.5em;
+  background-color: #f4f4f4;
+  font-family: Arial, Tahoma, monospace, serif,sans-serif, Ubuntu;
+}
+header nav ul li {
+  font-weight: bold;
+}
+/* Global Scopes */
+.active {
+  color: orange;
+}
+.justified{
+  text-align: justify;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.clr {
+  clear: both;
+}
+header {
+  background-color: darkblue;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+  border-bottom: 3px orange solid;
+}
+header h2 {
+  float: left;
+}
+
+header h2 span {
+  color: orange;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  float:left;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  color: #ccc;
+}
+#middle {
+  padding: 10px;
+  min-height: 400px;
+  background-image: url('../img/pics5.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+}
+#middle .container{
+  width: 80%;
+  margin: auto;
+  margin-top: 0px;
+}
+#middle .container h2 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+  line-height: 1.0em
+}
+#middle .container p {
+  text-align: center;
+  font-size: 22px;
+}
+#subscribe {
+  background: darkblue;
+  padding: 10px;
+}
+#subscribe .container {
+
+}
+#subscribe .container p {
+  float: left;
+  color: lightblue;
+  font-size: 22px;
+}
+#subscribe .container #myForm {
+  float: right;
+  padding-top: 20px;
+}
+
+#myForm input {
+  padding: 7px;
+  color: darkblue;
+  border-radius: 10px;
+  border: 1px white solid;
+  max-width: 80%;
+}
+#myForm input[type="submit"], #jForm input[type="submit"]{
+  padding: 7px;
+  color: darkblue;
+  background: lightblue;
+  border-radius: 10px;
+  border: 1px white solid;
+
+}
+#services {
+  margin: 30px;
+  text-align: center;
+}
+#services .container {}
+#services .container .box-1 {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+#services .container .box-2 {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+#services .container .box-3 {
+  float: left;
+  width: 33.3px;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+#services .container h3 {
+  text-align: center;
+}
+#services .container img {
+  width: 90px;
+  padding-top: 30px;
+}
+footer {
+  background-color: #ccc;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#others {
+  background-color: white;
+  magin-bottom: 0px;
+  padding: 7px;
+}
+#others .container {}
+#others .container h2{}
+#others .container ul {}
+  #others .container ul li{
+    list-style: none;
+    border-bottom: 1px dotted grey;
+  }
+#main-side {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 70px;
+  padding: 10px;
+  background-color: #333;
+  box-sizing: border-box;
+  color: white;
+  text-align: justify;
+}
+#mainUp {}
+#mainDown{
+  padding: 10px;
+  background-color: #333;
+  box-sizing: border-box;
+  color: white;
+  text-align: justify;
+}
+#sidebarForm {
+  float: right;
+  width: 30%;
+  margin-top: 70px;
+  padding: 10px;
+  background-color: #333;
+  box-sizing: border-box;
+  color: white;
+  text-align: justify;
+  position: relative;
+}
+
+#serv{}
+#serv .container {}
+#serv .container .box {
+  padding: 25px;
+  box-shadow: 0 0 5px grey;
+  margin: 10px;
+}
+#sidebarForm .form-group {
+
+}
+#sidebarForm .form-group label {
+  display: block;
+}
+#sidebarForm .form-group input {
+  display: block;
+  width: 80%;
+}
+#sidebarForm .form-group textarea {
+  display: block;
+  width: 90%;
+}
+#sidebarForm .form-group input[type="submit"] {
+  margin-top: 20px;
+  width: 40%
+  text-align:center;
+}
+#sidebarForm .form-group input[type="submit"]:hover {
+  background: gold;
+}
+
+#projHead {
+  text-align: center;
+  text-decoration: underline;
+}
+#headTag{
+  background-color: purple;
+  padding: 30px;
+  text-align: center;
+  margin: 5px;
+}
+#valGuess {
+  padding: 40px;
+}
+.won {
+  background-color: green;
+  color: white;
+  font-size: 30px;
+}
+.loss {
+  background-color: red;
+  color: black;
+  font-size: 30px;
+}
+
+#vals {
+  background-color: grey;
+  padding: 20px;
+  visibility: hidden;
+}
+
+#orange{
+  background-color: orange;
+}
+ul li {
+  list-style: none;
+}
+ul li .details {
+  text-decoration: none;
+}
+ul li:nth-child(even) .details {
+  color: brown;
+}
+ul li:nth-child(odd) .details{
+  color: darkblue;
+}
+ul li .details:hover{
+  color: red;
+}
+ul li .details:visited{
+  color: green;
+}
+#mainSides {
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+}
+#formResult {
+  float: right;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 10px;
+
+}
+#tables table thead tr th {
+  padding: 10px;
+}
+.form-group {
+  padding: 15px;
+}
+input[type="text"], input[type="email"] {
+  /*display: block; */
+}
+label {
+
+  padding-right: 40px;
+}
+
+table {
+  padding: 10px;
+  border: 1px solid black;
+  width: 100%;
+}
+table tr {
+  padding: 10px;
+
+}
+table tr td {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+@media(max-width: 768px){
+  header h2, nav,#sidebar, #main-side, #sidebarForm, #formResult, #mainSides,
+  #subscribe .container p, #subscribe .container #myForm,
+  #services .container .box-1,
+  #services .container .box-2,
+  #services .container .box-3 {
+    float: none;
+    width: 100%;
+  }
+  header h2, nav ul {
+    text-align: center;
+  }
+  #myForm input[type="email"]{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #myForm input[type="submit"] {
+    padding: 7px;
+    color: darkblue;
+    background: lightblue;
+    border-radius: 10px;
+    border: 1px gold solid;
+    width: 100%;
+  }
+  #myForm input[type="submit"]:hover {
+    background-color: orange;
+  }
+  #sidebar {
+    margin:10px;
+  }
+}
+@media(max-width: 1280px) {
+  body{
+    background-color: white;
+  }
+  #middless .container {
+    width: 100%;
+  }
+  #mainSides {
+    background-color: lightblue;
+  }
+  #formResult {
+    /* background-color: #f4f4f4; */
+  }
+   #formResult, #mainSides {
+
+   }
+   #genderLabel {
+     display: block;
+     padding-bottom: 5px;
+   }
+   #jForm input{
+     /*display: block; */
+     background-color: #f4f4f4;
+   }
+   #jForm input[type="checkbox"]{
+     /*display: block; */
+     background-color: #f4f4f4;
+   }
+   #courseLabel {
+     display: block;
+     padding-bottom: 5px;
+   }
+}
