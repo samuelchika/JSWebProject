@@ -16,6 +16,9 @@ const js = document.getElementById("js");
 const php = document.getElementById("php");
 let course = "";
 let todos = [];
+manipulation();
+todos = JSON.parse(window.localStorage.getItem('user'));
+  console.log(todos);
 form.addEventListener("click", function(e) {
   e.preventDefault();
   if (html.checked || css.checked || html5.checked || css3.checked || js.checked || php.checked) {
@@ -43,8 +46,13 @@ form.addEventListener("click", function(e) {
   validation(names, emails, gender, d, cities, course)  ? console.log("one is not enterd") : console.log("all entered");
   //assinging the input into the variable.
   let input = inputs (names, emails, gender, d, cities, course);
+  const jsonDataCheck = JSON.parse(window.localStorage.getItem('user'));
+    console.log(jsonDataCheck);
+
   todos.push(input);
-  manipulation(todos);
+  window.localStorage.setItem('user', JSON.stringify(todos));
+  manipulation();
+
   //console.log(todos);
   course = "";
 });
@@ -70,26 +78,33 @@ function inputs (names, emails, gender, d, cities, course) {
   return dataCollected;
 }
 
-function manipulation(todos) {
+function manipulation() {
   const tableBody = document.getElementById("tableBody");
-  tableBody.innerHTML = "";
-  for (var i = 0; i < todos.length; i++) {
-    tableBody.innerHTML += "<tr><td>" + todos[i].name +"</td><td>" + todos[i].email + "</td><td>" + todos[i].dob +"</td> <td> " + todos[i].gender +"</td> <td> " + todos[i].city +" </td> <td> " + todos[i].course.join(" ") +" </td></td></tr>"
+  let outputs = "";
+
+  const jsonData = JSON.parse(window.localStorage.getItem('user'));
+
+  for (var i = 0; i < jsonData.length; i++) {
+    outputs += "<tr><td>" + (i + 1) + "</td><td>" + jsonData[i].name +"</td><td>" + jsonData[i].email + "</td><td>" + jsonData[i].dob +"</td> <td> " + jsonData[i].gender +"</td> <td> " + jsonData[i].city +" </td> <td> " + jsonData[i].course.join(" ") +" </td><td><button onclick=removes(" + i + ")>Delete Entry</button></td></tr>";
   }
+  tableBody.innerHTML = outputs;
 
 }
-function removes(todos, i) {
-  delete todos[i];
-  console.log(todos);
+function removes(i) {
+  const todos = JSON.parse(window.localStorage.getItem('user'));
+  todos.splice(i,1);
+  window.localStorage.setItem('user', JSON.stringify(todos));
+  console.log(i);
+  manipulation();
 }
 
-function split(course) {
-  let courses = "";
-  for (var i = 0; i < course.length; i++) {
-    courses += course[i] + " ";
-  }
-  return courses.trim();
-}
+// function split(course) {
+//   let courses = "";
+//   for (var i = 0; i < course.length; i++) {
+//     courses += course[i] + " ";
+//   }
+//   return courses.trim();
+// }
 
 //first - Get the requierd information;
 //second - assign it into a variable

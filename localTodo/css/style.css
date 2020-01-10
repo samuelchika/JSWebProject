@@ -312,18 +312,63 @@ table {
   border: 1px solid black;
   width: 100%;
 }
+table thead tr{
+  background-color: #f4f4f4;
+}
 table tr {
-  padding: 10px;
-
-}
-table tr td {
-  padding: 10px;
+  padding: 5px;
   border: 1px solid black;
+}
+table tr td{
+  margin: 2px;
+
+}
+table tr:nth-child(even) {
+  background-color: #f4f4f4;
+
+}
+table tbody tr:nth-child(odd) {
   background-color: white;
+  border-bottom: 4px solid gold;
 }
 
 
+button {
+  background-color: gold;
+  padding: 5px;
+  border-top-left-radius : 10px;
+  border-bottom-right-radius: 10px;
+  color : white;
+}
+button:hover {
+  background-color: red;
+  padding: 5px;
+  border-top-right-radius : 10px;
+  border-bottom-left-radius: 10px;
+  color : black;
+}
+#jForm input{
+  /*display: block; */
+  background-color: #f4f4f4;
+  width: 100%;
+}
+#courseLabel {
+  display: block;
+  padding-bottom: 5px;
+}
 @media(max-width: 768px){
+  body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.8em;
+    word-spacing: 0.5em;
+    background-color: #f4f4f4;
+    font-family: Arial, Tahoma, monospace, serif,sans-serif, Ubuntu;
+  }
+  header #subscribe,#middless {
+    margin: auto;
+  }
+
   header h2, nav,#sidebar, #main-side, #sidebarForm, #formResult, #mainSides,
   #subscribe .container p, #subscribe .container #myForm,
   #services .container .box-1,
@@ -353,23 +398,30 @@ table tr td {
   #sidebar {
     margin:10px;
   }
+  #subscribe {
+    margin-bottom: 10px;
+  }
+  #mainSides {
+  width: 95%;
+  margin: auto;
+
+  }
+  #tables {
+    overflow-x:auto;
+  }
+  #jForm {
+
+  }
 }
 @media(max-width: 1280px) {
-  body{
-    background-color: white;
-  }
   #middless .container {
     width: 100%;
   }
-  #mainSides {
-    background-color: lightblue;
-  }
+
   #formResult {
     /* background-color: #f4f4f4; */
   }
-   #formResult, #mainSides {
 
-   }
    #genderLabel {
      display: block;
      padding-bottom: 5px;
@@ -377,6 +429,7 @@ table tr td {
    #jForm input{
      /*display: block; */
      background-color: #f4f4f4;
+     width: 100%;
    }
    #jForm input[type="checkbox"]{
      /*display: block; */
