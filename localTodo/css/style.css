@@ -356,6 +356,82 @@ button:hover {
   display: block;
   padding-bottom: 5px;
 }
+#friendsHeader {
+    padding: 30px;
+    background-color: azure;
+    margin-top: 10px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0 0 5px green;
+    color: white;
+}
+#friendsList {
+    list-style: none;
+}
+#friendsList  li{
+    position: relative;
+    padding: 30px;
+    margin: 20px;
+    background-color: azure;
+    display: flex;
+}
+#friendsList li img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+#friendsList li .content {
+    padding-left: 30px;
+}
+#friendsList li h2 {
+    font-size: 2em;
+}
+#friendsList li h4 {
+    font-size: 1.1em;
+}
+.isOnline {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    display: block;
+    top: 50px;
+    right: 20px;
+    position: absolute;
+    border-radius: 50%;
+}
+.isOffline {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 50px;
+    right: 20px;
+    position: absolute;
+    border-radius: 50%;
+}
+#options {
+    text-align: center;
+}
+ #all {
+    padding: 5px;
+    width: 10%;
+    border-radius: 0px;
+    background-color: burlywood;
+}
+#on{
+    padding: 5px;
+    width: 10%;
+    border-radius: 0px;
+    background-color: green;
+}
+#off{
+    padding: 5px;
+    width: 10%;
+    border-radius: 0px;
+    background-color: red;
+}
 @media(max-width: 768px){
   body{
     margin: 0;
@@ -438,5 +514,8 @@ button:hover {
    #courseLabel {
      display: block;
      padding-bottom: 5px;
+   }
+   #tables {
+       overflow-x: auto;
    }
 }

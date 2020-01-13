@@ -1,0 +1,26 @@
+friends = [
+    {
+        "name": "Richard Lewis",
+        "email": "RichardLewis@outlook.com",
+        "profilPic": "img/p1.jpg",
+        "isOnline": true
+    },
+    {
+        "name": "Kent	Hill",
+        "email": "KentHill@gmail.com",
+        "profilPic": "img/p2.jpg",
+        "isOnline": false
+    },
+    {
+        "name": "Michael Perez",
+        "email": "MichaelPerez@yahoo.com",
+        "profilPic": "img/p3.jpg",
+        "isOnline": true
+    },
+    {
+        "name": "Roy Moreno",
+        "email": "RoyMoreno@outlook.uk",
+        "profilPic": "img/p4.jpg",
+        "isOnline": false
+    }
+];
