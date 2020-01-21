@@ -1,4 +1,4 @@
-* {
+blueviolet* {
     margin: 0px;
     padding: 0px;
 }
@@ -779,7 +779,7 @@ margin-left: 5px;
         box-shadow: 0 0 4px darkslategrey;
     }
     #todoHead {
-        background-color: blueviolet;
+        background-color: cadetblue;
         padding: 15px;
         text-align: center;
     }
