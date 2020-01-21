@@ -1,7 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    line-height: 1.5em;
+    word-spacing: 1em;
+    background-color: beige;
+}
 body{
-  margin: 0;
-  padding: 0;
-  line-height: 1.8em;
+   line-height: 1.8em;
   word-spacing: 0.5em;
   background-color: #f4f4f4;
   font-family: Arial, Tahoma, monospace, serif,sans-serif, Ubuntu;
@@ -601,4 +608,199 @@ button:hover {
        overflow-x: auto;
    }
 
+}
+/*Todo CSS document*/
+
+#todoHouse{
+    margin:auto;
+    width: 60%;
+    box-shadow: 0 0 4px darkslategrey;
+}
+#todoBody {
+
+}
+
+#todoHead {
+    background-color: cadetblue;
+    padding: 15px;
+    text-align: center;
+}
+
+#todoHead h1 {
+    padding-top: 150px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    font-size: 50px;
+}
+.no-todo {
+    padding: 40px;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+}
+#todoForm {
+    width: 100px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+#todoForm  .todo-list .todo .todoText {
+    ;
+}
+#todoForm input, #todoForm button {
+    padding: 15px;
+}
+#todoForm input {
+    width: 70%;
+    background-color: aquamarine;
+    border: none;
+}
+#todoForm input:focus{
+    background-color: cadetblue;
+    border-left: 4px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: bold;
+}
+#todoForm button {
+    margin-left: -5px;
+    background-color: aqua;
+    border: none;
+    border-left: 4px solid white;
+}
+#todoForm button:hover {
+    background-color: blueviolet;
+    color: blue;
+    text-shadow: 0 0 2px white;
+}
+.todo-list {
+    list-style: none;
+    margin:0;
+}
+.todo-list .todo {
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    box-shadow: 0 0 4px darkgrey;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.todo-list .buttons {
+    display: flex;
+}
+.todo:nth-child(even){
+    background-color: lightblue
+}
+.todo:nth-child(odd){
+    background-color: cornflowerblue
+}
+.todo-list .buttons {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+}
+.todo-list .buttons button {
+    padding: 10px;
+
+
+}
+.todo-list .buttons .up{
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 0px;
+    color: black;
+}
+.todo-list .buttons .up:hover{
+    background-color: green;
+    color: white;
+}
+.todo-list .buttons .down{
+margin-left: 5px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 0px;
+}
+.todo-list .buttons .down:hover{
+    background-color: greenyellow;
+    color: crimson;
+}
+.todo-list .buttons .remove{
+    margin-left: 5px;
+    background-color: darkred;
+    border: none;
+    color: white;
+    border-radius: 0px;
+}
+.todo-list .buttons .remove:hover{
+    background-color: orangered;
+}
+
+@media(max-width : 1280px) {
+    #todoHouse{
+        margin:auto;
+        width: 85%;
+        box-shadow: 0 0 4px darkslategrey;
+    }
+    #todoHead {
+        background-color: blueviolet;
+        padding: 15px;
+        text-align: center;
+    }
+    #todoForm input {
+        width: 70%;
+        background-color: darkmagenta;
+        border: none;
+    }
+    #todoForm input:focus {
+        background-color: darkorchid;
+        border: none;
+    }
+    #todoForm button {
+        margin-left: -5px;
+        background-color: tomato;
+        border: none;
+        border-left: 4px solid white;
+        border-radius: 0px;
+    }
+    #todoForm button:hover {
+        background-color: forestgreen;
+        color: white;
+        text-shadow: 0 0 2px white;
+    }
+
+}
+
+@media(max-width : 768px) {
+    #todoHouse{
+        margin:auto;
+        width: 95%;
+        box-shadow: 0 0 4px darkslategrey;
+    }
+    #todoHead {
+        background-color: blueviolet;
+        padding: 15px;
+        text-align: center;
+    }
+    #todoForm input {
+        width: 70%;
+        background-color: darkmagenta;
+        border: none;
+    }
+    #todoForm input:focus {
+        background-color: darkorchid;
+        border: none;
+    }
+    #todoForm button {
+        margin-left: -5px;
+        background-color: tomato;
+        border: none;
+        border-left: 4px solid white;
+    }
+    #todoForm button:hover {
+        background-color: forestgreen;
+        color: white;
+        text-shadow: 0 0 2px white;
+    }
 }
