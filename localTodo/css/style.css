@@ -610,7 +610,15 @@ button:hover {
 
 }
 /*Todo CSS document*/
-
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    line-height: 1.5em;
+    word-spacing: 1em;
+    background-color: beige;
+}
 #todoHouse{
     margin:auto;
     width: 60%;
@@ -645,10 +653,6 @@ button:hover {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-
-}
-#todoForm  .todo-list .todo .todoText {
-    ;
 }
 #todoForm input, #todoForm button {
     padding: 15px;
@@ -699,19 +703,15 @@ button:hover {
 }
 .todo-list .buttons {
     margin-top: -5px;
-    display: flex;
-    align-items: center;
 }
 .todo-list .buttons button {
     padding: 10px;
-
+    border-radius: 0px;
 
 }
 .todo-list .buttons .up{
     background-color: antiquewhite;
     border: none;
-    border-radius: 0px;
-    color: black;
 }
 .todo-list .buttons .up:hover{
     background-color: green;
@@ -721,7 +721,6 @@ button:hover {
 margin-left: 5px;
     background-color: burlywood;
     border: none;
-    border-radius: 0px;
 }
 .todo-list .buttons .down:hover{
     background-color: greenyellow;
@@ -732,7 +731,6 @@ margin-left: 5px;
     background-color: darkred;
     border: none;
     color: white;
-    border-radius: 0px;
 }
 .todo-list .buttons .remove:hover{
     background-color: orangered;
@@ -741,7 +739,7 @@ margin-left: 5px;
 @media(max-width : 1280px) {
     #todoHouse{
         margin:auto;
-        width: 85%;
+        width: 80%;
         box-shadow: 0 0 4px darkslategrey;
     }
     #todoHead {
@@ -763,7 +761,6 @@ margin-left: 5px;
         background-color: tomato;
         border: none;
         border-left: 4px solid white;
-        border-radius: 0px;
     }
     #todoForm button:hover {
         background-color: forestgreen;

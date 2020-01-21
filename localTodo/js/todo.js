@@ -27,11 +27,11 @@ function createTodo(text) {
     li.append(buttonDiv);
     return li;
 }
-const addTodo = document.querySelector("#addTodo");
+const todoSubmit = document.querySelector("#todoSubmit");
 const todoBody = document.querySelector("#todoBody");
 const input = document.querySelector("#todoValue");
 const noTodos = document.querySelector(".no-todo");
-addTodo.addEventListener("click", () => {
+todoSubmit.addEventListener("click", (e) => {
     const ul = todoBody.querySelector(".todo-list");
     if(input.value.length >= 1) {
             if(!todoBody.querySelector(".todo-list")) {
@@ -44,7 +44,6 @@ addTodo.addEventListener("click", () => {
                 ul.append(createTodo(input.value));
                 input.value = "";
             }
-
     }
 });
 input.addEventListener("keyup", function(e){
