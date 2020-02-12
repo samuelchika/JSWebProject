@@ -1,0 +1,61 @@
+/*
+    font-family: 'Space Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+*/
+main{
+  background-color: lightgrey;
+  line-height: 1.5em;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Space Mono', monospace;
+}
+#title, h5{
+  text-align: center;
+}
+#img-div{
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+#image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;  
+}
+#img-caption{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+#item1 h4{
+  padding-top: 10px;
+  text-align: center !important;
+}
+#item1 {
+  max-width: 555px;
+  margin: 0 auto;
+  
+}
+#item1 ul {
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+#item ul li{
+  text-align: justify;  
+}
+#item1 ul li span {
+  font-weight: bold;
+}
+blockquote {
+  font-size: 13px;
+  line-height: 1.2em;
+}
+#item2 {
+  text-align: center;
+}
+
