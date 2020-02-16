@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Modak|Nunito|Work+Sans&display=swap');
+/*
+    font-family: 'Modak', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+*/
+*{
+   padding: 0px;
+   margin: 0px;
+}
+body {
+   background-color: coral;
+   line-height: 1.7em;
+   font-family: 'Work Sans', sans-serif;
+   color: white;
+}
+.container {
+   width: 80%;
+   margin: 40px auto;
+   padding: 20px auto;
+   background-color: lightseagreen;
+   border-radius: 10px;
+}
+.form-group {
+   padding: 10px 10px 10px 20px;
+   line-height: 2.0em;
+   font-family: 'Nunito', sans-serif;
+}
+header {
+   font-size: 16px;
+   padding: 20px 20px 20px 20px;
+   text-align: center;
+   animation: pulse 5s infinite;
+}
+.container header h1 {
+   /* animation: pulse 5s infinite; */
+}
+label {
+   display: block;
+   font-weight: bold;
+}
+footer{
+   width: 80%;
+   background-color: coral;
+   margin: auto;
+   color:lightseagreen;
+   text-shadow: 0 0 4px white;
+   line-height: 1em;
+   text-align: right;
+   padding: 20px 20px
+}
+
+/* @keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+} */
+.info{
+   text-align: center;
+   color: aliceblue;
+   padding: 15px 15px;
+   background-color: coral;
+   width: 80%;
+   margin: 5px auto;
+   animation: bGChng 5s infinite;
+   animation-direction: alternate;
+}
+
+@keyframes pulse {
+   0% {
+      background-color: #001F3F;
+      color:  #FF4136;
+   }
+   10% {
+      color: aliceblue;
+   }
+   30% {
+      text-shadow: 0 0 4px aliceblue;
+      opacity: 0.7;
+   }
+   60% {
+      color: #001F3F;
+      text-shadow: 0 0 4px aliceblue;
+      font-family: 'Work Sans', sans-serif;
+      opacity: 0.4;
+      background-color: #FF4136;
+   }
+   80% {
+      background-color: #FF4136;
+      opacity: .7;
+   }
+   100% {
+      opacity: 0;
+
+   }
+
+}
+
+@keyframes bGChng {
+   0%{
+      background-color: coral;
+   }
+   100%{
+      background-color: darkolivegreen;
+      font-size: 23px;
+   }
+}
