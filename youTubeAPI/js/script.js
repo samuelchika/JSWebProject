@@ -1,3 +1,4 @@
+
 $(function() {
    var searchField = $('#query');
    var icon = $('#search-btn');

@@ -70,9 +70,11 @@ footer {
    position: relative;
    width: 90%;
    margin: 0 auto;
+
 }
 #search-btn{
    box-shadow: 0 0px 15px #f0f0f0;
+
    border: 0px;
    padding: 10px 15px;
    filter:alpha(opacity=65);
@@ -95,15 +97,15 @@ footer {
    padding-right: 43px;
    background: white;
    border: 0px solid #c8c8c8;
-   color: #ccc;
-   font-size: 1.1em;
+   color: black;
+   font-size: 1.4em;
    border-radius: 1px;
    box-shadow: 0 0px 15px #f0f0f0;
    transition: width 0.8s ease 0.8s, border-top-left-radius 1s ease-in;
 }
 .search-field:hover{
    border: 3px solid whitesmoke;
-   opacity: 0.8;
+   opacity: 0.9;
 }
 .search-field:focus{
    border: 3px solid whitesmoke;
@@ -119,7 +121,8 @@ footer {
    list-style: none;
    padding: 10px 10px;
    border-bottom: 2px dotted grey;
-   font-size: .9em;
+   font-size: 0.9em;
+   box-shadow: 0px 0px 6px dimgrey
 
 }
 #result li:first-child {

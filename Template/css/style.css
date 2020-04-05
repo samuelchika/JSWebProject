@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Gotu|Open+Sans|Righteous|Sawarabi+Mincho&display=swap');
+
+/*
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Gotu', sans-serif;
+
+    font-family: 'Do Hyeon', sans-serif;
+
+    font-family: 'Righteous', cursive;
+
+    font-family: 'Sawarabi Mincho', sans-serif; */
+
+
+body{
+   background-color: #f4f4f4;
+   font-family: 'Righteous', cursive, 'Sawarabi Mincho', sans-serif;
+}
+/* h6.font-italic{
+   font-size: 0.9em;
+} */
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Do Hyeon', sans-serif;
+}
+figure {
+   box-sizing: border-box;
+}
+.jumbotron{
+   background-image: url(../images/download.jpg);
+   background-repeat:no-repeat;
+   background-size: cover;
+
+   position: relative;
+   color: white;
+
+}
+section.container{
+   margin-top: 4em;
+   /* position: relative; */
+
+}
+.fontAwe {
+   font-size: 3em;
+   color:cadetblue;
+
+}
+div.row.shadow.p-3.mx-3{
+   transition: all 1s ease-in-out;
+}
+div.row.shadow.p-3.mx-3:hover{
+   background-color: #A9A9A9;
+   transform: scale(1.5);
+}
+.text-decoration-none h4 {
+   color: cadetblue;
+}
+footer {
+   font-size: 1.1em;
+   color: white;
+   background: cadetblue;
+}
+footer .faa a {
+   color: #f4f4f4;
+}
+.bt{
+   position: relative;
+   background-color: cadetblue;
+   margin-left: -25px;
+   margin-top: -80px;
+   padding: 2.3em;
+   max-width: 65%;
+   border-top-right-radius: 30%;
+   border-bottom-right-radius: 30%;
+   color: white;
+
+}
+.int {
+  font-size: 5em;
+  word-spacing: 30px;
+   font-family: 'Do Hyeon', sans-serif;
+   animation-name: intlarge;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+@keyframes intlarge {
+   0%{
+      color: cadetblue;
+      font-size: 6em;
+      text-shadow: 2px 2px 4px red;
+   }
+   50% {
+      font-size: 5em;
+      text-shadow: 2px 2px 4px #CC0;
+   }
+
+    100%{
+      color: cadetblue;
+      font-size: 6em;
+      text-shadow: 4px 4px 3px green;
+   }
+}
+.green{
+  color: green;
+}
+.red {
+  color: red;
+}
+
+.yellow {
+  color:#CCCC00;
+}
+
+/* animation */
+#goal{
+   animation-name: goal;
+   animation-duration: 4s;
+   animation-timing-function: ease-in-out;
+   animation-direction:normal;
+   animation-iteration-count: infinite;
+   animation-fill-mode: both;
+}
+
+@keyframes goal {
+   0%{
+
+      transform: rotate(90deg);
+   }
+
+   25% {
+      transform: rotate(180deg);
+
+   }
+   50% {
+      transform: rotate(270deg);
+   }
+   75%{
+      transform: rotate(360);
+      transform: scale(1.5);
+   }
+   100%{
+      transform: rotate(0);
+      transform: scale(1);
+   }
+}
+
+#skill{
+   animation-name: skill;
+   animation-duration: 4s;
+   animation-delay: 5s;
+   animation-direction: normal;
+   animation-fill-mode: both;
+   animation-iteration-count: infinite;
+}
+@keyframes skill {
+   0%{
+
+      transform: scale(1);
+   }
+
+   25% {
+
+      transform: scale(1.5);
+   }
+   50% {
+      transform: scale(1.8);
+   }
+   75%{
+
+      transform: scale(1.5);
+   }
+   100%{
+
+      transform: scale(1);
+   }
+}
+
+#knowledge{
+   animation-name: knowledge;
+   animation-delay: 10s;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-fill-mode:backwards;
+   animation-iteration-count: infinite;
+}
+@keyframes knowledge {
+   0%{
+      transform: rotate(0deg);
+
+   }
+
+   25% {
+
+      transform: rotate(360deg);
+   }
+
+   50% {
+      transform: scale(1.5);
+   }
+   75%{
+
+      transform: scale(0.7);
+   }
+   100%{
+
+      transform: scale(1);
+   }
+}
+#practice{
+   animation-name: practice;
+   animation-delay: 15s;
+   animation-timing-function: linear;
+   animation-play-state: running;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+@keyframes practice {
+   0%{
+      transform: scale(1);
+   }
+
+   25% {
+
+      transform: scale(0.5);
+   }
+
+   50% {
+      transform: scale(1);
+   }
+   75%{
+
+      transform: scale(1.5);
+   }
+   100%{
+
+      transform: scale(1);
+   }
+}
+#mentor{
+   animation-name: mentor;
+   animation-duration: 4s;
+   animation-delay: 19s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;
+}
+@keyframes mentor {
+   0%{
+      transform: scale(1);
+      opacity: 0;
+   }
+
+   25% {
+
+      transform: scale(0.5);
+      opacity: 0.5
+   }
+
+   50% {
+      transform: scale(1);
+      opacity: 1;
+   }
+   75%{
+
+      transform: scale(1.5);
+      opacity: 0;
+   }
+   100%{
+      opacity: 1;
+      transform: scale(1);
+   }
+}
+#opportunity {
+   animation-name: opportunity;
+   animation-delay: 23s;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-fill-mode:backwards;
+   animation-iteration-count: infinite;
+}
+@keyframes opportunity {
+   0%{
+      transform: rotate(0deg);
+
+   }
+
+   25% {
+
+      transform: rotate(360deg);
+   }
+
+   50% {
+      transform: skewY(-23deg);
+   }
+   75%{
+
+      transform: skewY(23deg);
+   }
+   100%{
+
+      transform: skewY(0);
+   }
+}
