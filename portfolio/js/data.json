@@ -1,0 +1,158 @@
+{
+    "bio" : {
+        "name" : "Samuel Chika",
+        "email": "samuelemyrs@gmail.com",
+        "currentLocation": "Dublin, Ireland",
+        "phone": "+353899616949",
+        "address": "Apartment 6, The Turnpike, Santy Cross, Ballymun Road, Dublin 11, Dublin, Ireland",
+        "eircode" : "D11 H30P",
+        "profile" : "Passionate IT personnel, enjoy providing support and solutions to life problems,  using IT.",
+        "profileSummary" : ["5 years+ experience in programming.", "4 years+ experience in IT Consultant.", "3 years+ in IT Support role."]
+    },
+    "experience": [{
+        "jobTitle" : "Level 1 & 2 Support.",
+        "employer" : "National Petroleum Cooperation, Ikoyi, Lagos",
+        "from" : "February 2019",
+        "to" : "September 2019",
+        "duration" : "8 month",
+        "responsibllities" : [
+            "Working with service providers.",
+            "Hardware / Software  - (Desktop / Mobile) support.",
+            "Maintain professionalism and courtesy, answering phone calls.",
+            "Deployment of Network services locally or remote - new and old sites.",
+            "Monitoring services remotely of different sub units.",
+            "Documentation / report escalating issues to higher Tier - handwritten / mail.",
+            "Develop and manage IT enlightment training resource for staffs.",
+            "LAN / WAN, DHCP, TCP-IP, Routing, Switching, Ethernet..."
+        ]
+    },{
+        "jobTitle" : "Web Development",
+        "employer" : "Divine Mercy Catholic Church, Ikorodu, Lagos",
+        "from" : "September 2018",
+        "to" : "",
+        "duration" : "1 month",
+        "responsibllities" : [
+            "HTML5 / CSS3 / PHP / MySQL / BootStrap 4 / Vanilla JavaScript"
+        ]
+    },{
+        "jobTitle" : "IT Consultant",
+        "employer" : "Federal University of Technology, Owerri, Mathematics Department",
+        "from" : "January 2015",
+        "to" : "November 2015",
+        "duration" : "11 month",
+        "responsibllities" : [
+            "Worked closely with department to analyze IT system requirements, information technology needs and their resources in order to plan IT projects and fulfill clients expectations.",
+            "Developed IT system specifications after evaluating departments expectation",
+            "Solved clients IT issues - Researched and purchased equipment / quality software, projected modifcations of software, hardware and networking.",
+            "Decommission of bad computers/networks.",
+            "Installed and updated Windows 10, O, Microsoft 2f7ce Suite, Matlab, Norton 360.",
+            "DHCP, Wireless, TCP/IP."
+        ]
+    },{
+        "jobTitle" : "Tier 1",
+        "employer" : "National Petroleum Cooperation, Ikoyi, Lagos",
+        "from" : "June 2014",
+        "to" : "September 2019",
+        "duration" : "6 month",
+        "responsibllities" : [
+            "Ensure connectivity via VoIP / CLI (ping, tracecert, netstat...",
+            "Decommision bad desktops.",
+            "Setting up companies mail on staff desktop / mobile and password reset.",
+            "Setting up companies mail on staff desktop / mobile and password reset.",
+            "Obtain feedbacks and suggestions from staffs.",
+            "Establishing timeline / report for escallating issues."
+        ]
+    }],
+    "education" : {
+        "academic" : [{
+            "certified": "true",
+            "title": "Higher Diploma in Computing",
+            "from": "September 2019",
+            "to": "May 2020",
+            "institution": "Griffith College, Dublin, Ireland",
+            "link": "https://www.griffith.ie",
+            "outcome": [
+                "Programming  and Data structure - Java.",
+                "Object Oriented Development - Java.",
+                "HCI & GUI Programming - JavaFX.",
+                "Operating System / Data Communication and Network.",
+                "Relational Database - MySQL.",
+                "Software Engineering for Web Application - HTML5 / CSS3 / BootStrap 4 / PHP / MySQL."
+            ]
+        },{
+            "certified": "true",
+            "title": "Industrial Mathematics",
+            "from": "September 2010",
+            "to": "December 2015",
+            "institution": "Federal University of Technology, Owerri",
+            "link": "https://www.futo.edu.ng",
+            "outcome": [
+                "Theory of Programming Language.",
+                "File Processing.",
+                "Face Detection using mathematical modelling - PROJECT(2015)."
+            ]
+        }],
+        "courses": [{
+            "certified": true,
+            "title": "Cisco Certified Network Associate",
+            "of": "Routing and Switching",
+            "from": "August 2018",
+            "to": "August 2021",
+            "body": "Cisco",
+            "link": "https://cisco.com",
+            "certId": "CSCO13347633"
+        },{
+            "certified": true,
+            "title": "Object Oriented Programming PHP",
+            "of": "MVC Approach",
+            "from": "April 2020",
+            "to": "",
+            "body": "Udemy",
+            "link": "https://udemy.com",
+            "certId": ""
+        }]
+    },
+    "skills": [
+        { "name": "PHP/MySQL", "strength" : 80, "fAwesome": "fab fa-php text-info", "progBarColor": "bg-info" },
+        { "name": "JS/jQuery", "strength" : 60, "fAwesome": "fab fa-js text-warning", "progBarColor": "bg-warning" },
+        { "name": "CCNA", "strength" : 85, "fAwesome": "fab fa-network-wired text-success", "progBarColor": "bg-success" },
+        { "name": "Java", "strength" : 60, "fAwesome": "fab fa-java text-warning", "progBarColor": "bg-warning" },
+        { "name": "HTML5/CSS3", "strength" : 80, "fAwesome": "fab fa-html5 text-warning", "progBarColor": "bg-danger", "fAwesome2": "fab fa-css3 text-info" },
+        { "name": "Git", "strength" : 40, "fAwesome": "fab fa-git text-secondary", "progBarColor": "bg-git" },
+        { "name": "CompTia A+", "strength" : 85, "fAwesome": "fab fa-desktop text-success", "progBarColor": "bg-success" },
+        { "name": "IT Support", "strength": 75, "fAwesome": "fab fa-teamspeak text-primary", "progBarColor": "bg-primary" },
+        { "name": "Critical Thinking / Problem Solving", "strength": 70, "fAwesome": "fab fa-cogs text-danger", "progBarColor": "bg-danger" },
+        { "name": "Windows", "strength": 80, "fAwesome": "fab fa-windows text-primary", "progBarColor": "bg-primary" },
+        { "name": "Linux", "strength": 50, "fAwesome": "fab fa-linux text-secondary", "progBarColor": "bg-secondary" }
+    ],
+    "award": [
+        {
+            "certified": true,
+            "title": "Director of Research.",
+            "of": " NAMSN (FUTO Chapter)",
+            "from" : "November 2013",
+            "to" : "May 2014",
+            "body": "Federal University of Technology, Owerri" 
+        },{
+            "certified": true,
+           "title": "Certificate of Completion.",
+           "from" : "April 2016",
+           "to" : "April 2017",
+           "body": " National Youth Service Corps" 
+        },{
+            "certified": false,
+            "title": "President SERVICOM / GENDER.",
+            "of": "Community Development Service",
+            "from" : "June 2016",
+            "to" : "March 2017",
+            "body": " National Youth Service Corps (Lagos State)" 
+        }
+    ],
+    "socials": [
+        { "whatsapp": "https://wa.me/2348066256475?text=Contact%20from%20portfolio", "fAwesome": "fab fa-whatsapp text-success" },
+        { "linkedln": "https://www.linkedin.com/in/samuel-chika-8278a89a", "fAwesome": "fab fa-linkedin text-info" },
+        { "codepen": "https://codepen.io/samuelchika", "fAwesome": "fab fa-codepen text-dark" },
+        { "github": "https://www.github.com/samuelchika", "fAwesome": "fab fa-github text-secondary" },
+        { "email": "mailto:samuelemyrs@hotmail.com?subject:Contact%20From%20Portfolio", "fAwesome": "fab fa-envelop text-danger" }
+    ]
+}

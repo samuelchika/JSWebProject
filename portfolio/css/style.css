@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito:wght@600&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Above are the code to reset all html elements */
+/*
+    Author: Samuel Chika;
+    Location: Dublin Ireland;
+
+*/
+
+/*
+        font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Nunito', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1.7em;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/img2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+    /* background-color: darkolivegreen; */
+}
+.jumbotron {
+    background: none;
+}
+#jumCont {
+    background-color: rgb(114, 117, 119);
+    padding-top: 25px;
+}
+
+.list-square {
+    list-style-type: square;
+}
+.list-circle {
+    list-style-type: circle;
+}
+.text-shadow-success {
+    text-shadow: 3px 3px 4px darkolivegreen;
+}
+.font-big {
+    font-size: 3em;
+}
+
+.font-small {
+    font-size: 0.8em;
+}
+.font-sm {
+    font-size: 0.9em;
+}
+
+.font-mid {
+    font-size: 1.5em;
+}
+
+
+/* Elements */
+
+#imgSec {
+    width: 300px;
+    height: 300px;
+    
+}
+#socialLinks{
+    margin-top: 30px;
+}
+
+.skillDetail {
+    background-color: rgb(255, 248, 236);
+    border-radius: 20%;
+    animation: move 7s 2s linear infinite;
+}
+
+
+
+.skillDetail div div {
+    color:rgb(50, 51, 53);
+    border-radius: 20%;
+}
+
+
+#socialLinks {
+    background-color: white;
+    background-color: white;
+    
+}
+#socialLinks div a:hover{
+    border-radius: 50%;
+    background-color: rgba(77, 69, 63, 0.541);
+    padding: 15px 20px;
+}
+
+/* Key Frames*/
+@keyframes move {
+    0%, 100% {
+        transform: translate(0%, 0%);
+    }
+
+    10% {
+        transform: translate(10%, 0%);
+    }
+    30% {   
+        transform: translate(0, 10%);
+        
+    }
+    50% {
+        transform: translate(-20%, 0%);
+    }
+    70% {
+        transform: translate(0, -10%)
+    }
+    80% {
+        transform: scale(1);
+    }
+}
