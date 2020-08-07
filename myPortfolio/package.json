@@ -1,0 +1,22 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "CV Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "lite-server",
+    "start": "tsc -w"
+  },
+  "author": "Samuel Chika",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "webpack": "^4.44.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.0",
+    "commonjs": "0.0.1",
+    "jquery": "^3.5.1",
+    "typescript": "^3.9.7"
+  }
+}
