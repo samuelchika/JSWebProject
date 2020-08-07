@@ -32,9 +32,9 @@ middleContainer.setClass("container");
 middleSection.setClass('row');
 //the middle section consist of a section and an aside tag
 let middleLeft = new ElementCreate("SECTION");
-middleLeft.setClasses(['p-4', 'mx-auto', 'col-md-10']);
+middleLeft.setClasses(['p-4', 'mx-auto', 'col-md-10', 'col-9']);
 let middleRight = new ElementCreate("SECTION");
-middleRight.setClasses(['p-4', 'mx-auto', 'col-md-2', 'my-auto']);
+middleRight.setClasses(['p-4', 'mx-auto', 'col-md-2', 'my-auto', 'col-11']);
 //create the buttons for the modals 
 const buttonSection = new ElementCreate("SECTION");
 //setting the attributes of the button Section
