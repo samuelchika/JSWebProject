@@ -1,7 +1,6 @@
+import { BulletPoints } from './Interfaces.js';
 import ElementCreate from './ElementCreate.js';
-import BulletPoints from './BulletPoints.js';
 class Academic {
-    //private academicDetails: AcademicAttributes = {};
     //constructor declaration
     constructor(academicDetails) {
         this.academicDetails = academicDetails;

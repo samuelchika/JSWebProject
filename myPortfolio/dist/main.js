@@ -3,8 +3,9 @@ import Skills from './classes/Skills.js';
 import Bio from './classes/Bio.js';
 import Socials from './classes/Socials.js';
 import Experience from './classes/Experience.js';
-import BulletPoints from './classes/utilities/BulletPoints.js';
 import Education from './classes/Education.js';
+import Award from './classes/Award.js';
+import { BulletPoints } from './classes/utilities/Interfaces.js';
 window.addEventListener('load', () => {
     $.getJSON('./dist/data.json', (data) => {
         const skills = data.skills;
@@ -14,6 +15,7 @@ window.addEventListener('load', () => {
         populateSocials(data.socials);
         createExperienceModal(data.experience);
         createEducationModal(data.education);
+        createAwardModal(data.award);
     });
 });
 //main container
@@ -72,10 +74,7 @@ const populateSocials = (data) => {
     social = socials.getSocials();
 };
 const populateSkills = (data) => {
-    const skillClass = new Skills();
-    data.forEach((skill) => {
-        skillClass.setSkills(skill);
-    });
+    const skillClass = new Skills(data);
     middleLeft.setChild(skillClass.getSkills());
     middleContainer.setChild(middleLeft.getElement());
     //return skillClass.getSkills();
@@ -99,6 +98,13 @@ const createExperienceModal = (data) => {
     experienceModal.setModalBodyDetails(data);
     //console.log(experienceModal.getModal());
     modals.setChild(experienceModal.getModal());
+    container.setChild(modals.getElement());
+};
+const createAwardModal = (data) => {
+    const awardModal = new Award("awards");
+    awardModal.setModalBodyDetails(data);
+    console.log(awardModal.getModal());
+    modals.setChild(awardModal.getModal());
     container.setChild(modals.getElement());
 };
 function setUpModal(buttonType, buttonName) {

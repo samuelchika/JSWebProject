@@ -119,7 +119,7 @@
     "skills": [
         { "name": "PHP/MySQL", "strength" : 80, "fAwesome": "fab", "progBarColor": "bg-info", "fAwesomeA": "fa-php", "fAwesomeTextColor": "text-info"  },
         { "name": "JS/jQuery", "strength" : 60, "fAwesome": "fab", "progBarColor": "bg-warning",  "fAwesomeA": "fa-js", "fAwesomeTextColor": "text-warning" },
-        { "name": "CCNA", "strength" : 85, "fAwesome": "fas", "progBarColor": "bg-success",  "fAwesomeA": "fa-network-wired", "fAwesomeTextColor": "text-success" },
+        { "name": "CCNA R&S", "strength" : 85, "fAwesome": "fas", "progBarColor": "bg-success",  "fAwesomeA": "fa-network-wired", "fAwesomeTextColor": "text-success" },
         { "name": "Java", "strength" : 60, "fAwesome": "fab", "progBarColor": "bg-warning",  "fAwesomeA": "fa-java", "fAwesomeTextColor": "text-warning" },
         { "name": "HTML5/CSS3", "strength" : 80, "fAwesome": "fab", "progBarColor": "bg-danger",  "fAwesomeA": "fa-html5", "fAwesomeTextColor": "text-warning" },
         { "name": "Git", "strength" : 40, "fAwesome": "fab", "progBarColor": "bg-secondary",  "fAwesomeA": "fa-github", "fAwesomeTextColor": "text-secondary" },
@@ -139,10 +139,11 @@
             "body": "Federal University of Technology, Owerri" 
         },{
             "certified": true,
-           "title": "Certificate of Completion.",
-           "from" : "April 2016",
-           "to" : "April 2017",
-           "body": " National Youth Service Corps" 
+            "title": "Certificate of Completion.",
+            "of": "",
+            "from" : "April 2016",
+            "to" : "April 2017",
+            "body": " National Youth Service Corps" 
         },{
             "certified": false,
             "title": "President SERVICOM / GENDER.",
@@ -153,9 +154,9 @@
         }
     ],
     "socials": [
-        { "link": "https://wa.me/2348066256475?text=Contact%20from%20portfolio", "fAwesome": "fab fa-whatsapp text-success" },
-        { "link": "https://www.linkedin.com/in/samuel-chika-8278a89a", "fAwesome": "fab fa-linkedin text-info" },
-        { "link": "https://codepen.io/samuelchika", "fAwesome": "fab fa-codepen text-dark" },
-        { "link": "https://www.github.com/samuelchika", "fAwesome": "fab fa-github text-secondary" }
+        { "link": "https://wa.me/2348066256475?text=Contact%20from%20portfolio", "fAwesome": "fab fa-whatsapp" },
+        { "link": "https://www.linkedin.com/in/samuel-chika-8278a89a", "fAwesome": "fab fa-linkedin" },
+        { "link": "https://codepen.io/samuelchika", "fAwesome": "fab fa-codepen" },
+        { "link": "https://www.github.com/samuelchika", "fAwesome": "fab fa-github" }
     ]
 }

@@ -1,7 +1,6 @@
+import { BulletPoints } from './Interfaces.js';
 import ElementCreate from './ElementCreate.js';
-import BulletPoints from './BulletPoints.js';
 class Course {
-    //private courseDetails: CourseAttributes = {};
     //constructor declaration
     constructor(courseDetails) {
         this.courseDetails = courseDetails;

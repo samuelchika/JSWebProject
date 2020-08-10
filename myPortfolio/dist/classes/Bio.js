@@ -13,8 +13,6 @@ class Bio {
         spanB.setClass('text-success');
         const fullName = this.bioData.name.trim();
         let names = [];
-        let firstName;
-        let otherNames;
         if (fullName !== "") {
             if (fullName.search(" ") != -1) {
                 names = fullName.split(" ");

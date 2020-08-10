@@ -1,8 +1,8 @@
 import ElementCreate from './utilities/ElementCreate.js';
 import Modal from './utilities/Modal.js';
-import BulletPoints from './utilities/BulletPoints.js';
 import Academic from './utilities/Academic.js';
 import Course from './utilities/Course.js';
+import { BulletPoints } from './utilities/Interfaces.js';
 class Education extends Modal {
     constructor(modalType) {
         super(modalType);

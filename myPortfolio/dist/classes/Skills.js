@@ -1,11 +1,8 @@
 import ElementCreate from './utilities/ElementCreate.js';
-//clean up the interface later, have a file called Interface.js
 class Skills {
-    constructor() {
+    constructor(skill) {
         this.skillsArray = [];
-    }
-    setSkills(skill) {
-        this.skillsArray.push(skill);
+        this.skillsArray = skill;
     }
     getSkills() {
         const div = new ElementCreate('div');
