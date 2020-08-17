@@ -1,22 +1,27 @@
 import ElementCreate from './utilities/ElementCreate.js';
 import Modal from './utilities/Modal.js';
-import { BulletPoints } from './utilities/Interfaces.js';
+import { BulletPoints, AwardObject } from './utilities/Interfaces.js';
+
+
 class Award extends Modal {
-    constructor(modalType) {
+    protected body:AwardObject[] = [];
+    constructor(modalType:string) {
         super(modalType);
-        this.body = [];
     }
-    setModalBodyDetails(modalBody) {
+
+    setModalBodyDetails(modalBody: [AwardObject]) {
         this.body = modalBody;
     }
-    getModalBody() {
+
+    protected getModalBody():HTMLElement {
         const modalBody = new ElementCreate("DIV");
         //set modalBody properties:
         modalBody.setClasses(['modal-body', 'p-md-4', 'text-left', 'text-dark']);
         this.body.forEach(experience => modalBody.setChild(this.getExperiences(experience)));
         return modalBody.getElement();
     }
-    getExperiences(award) {
+
+    private getExperiences(award: AwardObject):HTMLElement {
         const div = new ElementCreate("div");
         const h2 = new ElementCreate("H2");
         //award font awesome
@@ -36,6 +41,8 @@ class Award extends Modal {
         span.setClasses(['font-italic', 'text-dark']);
         ul.setClasses(['ml-4', 'mt-3', 'font-sm']);
         pOf.setClasses(['text-secondary', 'py-2']);
+        
+
         //split the classes of the font awesome to use assign them as class values to the i tag
         const fAwesomeAward = BulletPoints.AWARD.split(" ");
         fAwesomeAward.forEach(val => i.setClass(val));
@@ -46,6 +53,7 @@ class Award extends Modal {
         iCalender.setClass("text-info");
         const body = BulletPoints.SCHOOL.split(" ");
         body.forEach(bd => iBody.setClass(bd));
+
         //set element texts
         (award.to !== "") ? span.setElementText(`${award.from} - ${award.to}`) : span.setElementText(`${award.from}`);
         // p.setElementText(' &emsp; ');
@@ -64,16 +72,19 @@ class Award extends Modal {
         // pOf.setElementText('&emsp;');
         pOf.setElementText(`&emsp; &nbsp; ${award.of}`);
         //attach all the neccessary tag to their parent.
-        (award.of === "") ?
-            div.setChildren([
-                h2.getElement(),
-                p.getElement()
-            ]) : div.setChildren([
+        (award.of === "") ? 
+        div.setChildren([
+            h2.getElement(),
+            p.getElement()
+        ]) : div.setChildren([
             h2.getElement(),
             pOf.getElement(),
             p.getElement()
         ]);
         return div.getElement();
     }
+
+    
 }
+
 export default Award;

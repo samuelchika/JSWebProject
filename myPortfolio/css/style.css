@@ -200,7 +200,7 @@ body {
     animation-delay: 2s;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: 5;
+    animation-iteration-count: 2;
 }
 
 .oddSocials {
@@ -210,7 +210,7 @@ body {
     animation-delay: 4s;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: 5;
+    animation-iteration-count: 2;
 }
 
 @keyframes even {
@@ -233,7 +233,7 @@ body {
     }
     100%{
         transform: translate(0%, 0%);
-        background-image: radial-gradient(#95498f, #84416e, #9c52a6);
+        background-image: radial-gradient(#329b96, #418084, #52a68a);
         opacity: 1;
         color:white;
         transform: scale(1);
@@ -244,7 +244,7 @@ body {
 
  @keyframes odd {
     10%{
-        background-image: radial-gradient(#815f9f, #9a7eb2, #674b7f);
+        background-image: radial-gradient(#9f895f, #b2af7e, #7f774b);
         transform: scale(0.3);
         padding: 5px 10px;
         opacity: 1;
@@ -258,7 +258,7 @@ body {
        transform: scale(0.7);
     }
     100%{
-        background-image: radial-gradient(#95498f, #84416e, #9c52a6);
+        background-image: radial-gradient(#329b96, #418084, #52a68a);
         opacity: 1;
         color:white;
         transform: scale(1);

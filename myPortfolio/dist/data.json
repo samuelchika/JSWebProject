@@ -158,5 +158,43 @@
         { "link": "https://www.linkedin.com/in/samuel-chika-8278a89a", "fAwesome": "fab fa-linkedin" },
         { "link": "https://codepen.io/samuelchika", "fAwesome": "fab fa-codepen" },
         { "link": "https://www.github.com/samuelchika", "fAwesome": "fab fa-github" }
+    ],
+    "projects": [
+        {
+            "name": "Fitness Website",
+            "link": "https://knuth.griffith.ie/~s3011354/csamframework/public/index.php",
+            "skills": ["PHP", "MySQL", "Javascript", "BootStrap 4", "HTML5 & CSS3"],
+            "description": "School Project, carried out by 3 people. I was responsible for the whole backend work (PHP / MySQL), and helped in the Front End (JavaScript). It's a fitness website with functionalities of restricting users who are not logged in, from accessing some features such as: testimonials and classes full details. Everything about website runs from the backend. It's managed from the database. Login as a user:- email: samuelchika@gmail.com, admin: samuelemyrs@gmail.com. Password: password."
+        }, {
+            "name": "Other Projects",
+            "link": "https://github.com/samuelchika",
+            "skills": ["Java", "JavaFX", "JavaScript", "BootStrap 4", "HTML5 / CSS3", "TypeScript"],
+            "description": "A link to my Github page to look out some of my Java Project and WebProjects"
+        }, {
+            "name": "My Portfolio",
+            "link": "https://samuelchika.github.io/JSWebProject/portfolio",
+            "skills": ["HTML5 & CSS3", "TypeScript", "BootStrap 4"],
+            "description": "A link to this very website you are viewing. Contains all the code and classes. The website was Design using OOP approach. Everything in the website comes from a file named data.json. The html body tag is empty. All other elements event the bootstrap modal is carried out by a class and all the buttons activating the modals are were created seperately. The modal is a class and each button modal extends the modal class."
+        }, {
+            "name": "YouTube-API",
+            "link": "https://samuelchika.github.io/JSWebProject/youTubeAPI",
+            "skills": ["HTML5 & CSS3", "JQuery"],
+            "description": "Out of the Frustrting Ads in youtube I was forced to get busy with Youtube API by google to prevent ads from popping up. Thanks to Brad who guided me through it all."
+        }, {
+            "name": "Survey Form",
+            "link": "https://samuelchika.github.io/JSWebProject/codecampProject/codeCampSurveryForm",
+            "skills": ["HTML5 & CSS3"],
+            "description": "This was a codecamp project on HTML5 / CSS3"
+        }, {
+            "name": "Tribute Page",
+            "link": "https://samuelchika.github.io/JSWebProject/codecampProject/tributePage",
+            "skills": ["HTML5 & CSS3"],
+            "description": "This was a codecamp project on HTML / CSS3."
+        }, {
+            "name": "Interview Question",
+            "link": "https://samuelchika.github.io/JSWebProject/interview",
+            "skills": ["HTML5 & CSS3", "JavaScript"],
+            "description": "This was a codecamp project on HTML / CSS3 and JavaScript."
+        }
     ]
 }
