@@ -174,7 +174,7 @@
             "name": "My Portfolio",
             "link": "https://samuelchika.github.io/JSWebProject/portfolio",
             "skills": ["HTML5 & CSS3", "TypeScript", "BootStrap 4"],
-            "description": "A link to this very website you are viewing. Contains all the code and classes. The website was Design using OOP approach. Everything in the website comes from a file named data.json. The html body tag is empty. All other elements event the bootstrap modal is carried out by a class and all the buttons activating the modals are were created seperately. The modal is a class and each button modal extends the modal class."
+            "description": "A link to this very website you are viewing. Contains all the code and classes. The website was Design using OOP approach. Everything in the website comes from a file named data.json. The html body tag is empty. All other elements, event, the bootstrap modal, was carried out by differnt classes. All the buttons activating the modals were created seperately. The modal is an ABSTRACT Class and each button Modal extends the Modal Class. A Class is defined to create every HTML element, it classes, ID, attributes and textnode. Each section in the webpage has a Class that create all its elements, sub elements / children, using the Class that create each HTML Elements."
         }, {
             "name": "YouTube-API",
             "link": "https://samuelchika.github.io/JSWebProject/youTubeAPI",
