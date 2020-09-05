@@ -130,7 +130,7 @@
         { "name": "Remote Technologies", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-warning",  "fAwesomeA": "fa-video-camera", "fAwesomeTextColor": "text-primary" },
         { "name": "Windows", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-windows", "fAwesomeTextColor": "text-primary" },
         { "name": "Linux", "strength": 50, "fAwesome": "fab", "progBarColor": "bg-secondary",  "fAwesomeA": "fa-linux", "fAwesomeTextColor": "text-secondary" },
-        { "name": "Virtualization Technology", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-desktop", "fAwesomeTextColor": "text-primary" },
+        { "name": "Virtualization Technology", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-desktop", "fAwesomeTextColor": "text-primary" }
     ],
     "award": [
         {
