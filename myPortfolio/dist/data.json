@@ -127,10 +127,10 @@
         { "name": "CompTia A+", "strength" : 85, "fAwesome": "fa", "progBarColor": "bg-success",  "fAwesomeA": "fa-laptop", "fAwesomeTextColor": "text-success" },
         { "name": "IT Support", "strength": 75, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-teamspeak", "fAwesomeTextColor": "text-primary" },
         { "name": "Critical Thinking / Problem Solving", "strength": 70, "fAwesome": "fa", "progBarColor": "bg-danger",  "fAwesomeA": "fa-cogs", "fAwesomeTextColor": "text-danger" },
-        { "name": "Remote Technologies", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-warning",  "fAwesomeA": "fa-video-camera", "fAwesomeTextColor": "text-primary" },
+        { "name": "Remote Technologies", "strength": 80, "fAwesome": "fa", "progBarColor": "bg-warning",  "fAwesomeA": "fa-video-camera", "fAwesomeTextColor": "text-primary" },
         { "name": "Windows", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-windows", "fAwesomeTextColor": "text-primary" },
         { "name": "Linux", "strength": 50, "fAwesome": "fab", "progBarColor": "bg-secondary",  "fAwesomeA": "fa-linux", "fAwesomeTextColor": "text-secondary" },
-        { "name": "Virtualization Technology", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-desktop", "fAwesomeTextColor": "text-primary" }
+        { "name": "Virtualization Technology", "strength": 80, "fAwesome": "fa", "progBarColor": "bg-primary",  "fAwesomeA": "fa-desktop", "fAwesomeTextColor": "text-primary" }
     ],
     "award": [
         {
