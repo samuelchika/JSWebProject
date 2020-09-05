@@ -6,10 +6,10 @@
         "email": "samuelemyrs@gmail.com",
         "summary": "IT Consultant / IT Support / Web Developer",
         "currentLocation": "Dublin, Ireland",
-        "phone": "2348066256475",
+        "phone": "35389616949",
         "address": "Apartment 6, The Turnpike, Santy Cross, Ballymun Road, Dublin 11, Dublin, Ireland",
         "eircode" : "D11 H30P",
-        "profile" : "Passionate IT personnel, enjoy providing support and solutions to life problems,  using IT.",
+        "profile" : "Web Developer (Full Stack), experience, developing and working with API. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including HTML5, PHP OOP, JavaScript, CSS3, Bootstrap 4, MySQL, Java OOP, Typescript, Node JS. Strong background in IP networking and customer relations. Target-driven, enthusiastic and bright individual, who is personable, outgoing and has the ability to work under pressure, as an individual or within a team. In order to be the best version of myself, it is imperative to be fully immersive in the industry of work and treating oneself as a brand. Product knowledge and industry insight gives an edge, and at the very least creates good rapport with clients.",
         "profileSummary" : ["5 years+ experience in programming.", "4 years+ experience in IT Consultant.", "3 years+ in IT Support role."]
     },
     "experience": [{
@@ -22,11 +22,11 @@
             "Working with service providers.",
             "Hardware / Software  - (Desktop / Mobile) support.",
             "Maintain professionalism and courtesy, answering phone calls.",
-            "Deployment of Network services locally or remote - new and old sites.",
-            "Monitoring services remotely of different sub units.",
+            "IP Networking – Remote and Local (Router, Wireless Networks, Managed Switches).",
             "Documentation / report escalating issues to higher Tier - handwritten / mail.",
             "Develop and manage IT enlightment training resource for staffs.",
-            "LAN / WAN, DHCP, TCP-IP, Routing, Switching, Ethernet..."
+            "Remote Desktop Technologies (Teamviewer, Zoom etc.).",
+            "Virtualization Technology"
         ]
     },{
         "jobTitle" : "Web Development",
@@ -120,15 +120,17 @@
     "skills": [
         { "name": "PHP/MySQL", "strength" : 80, "fAwesome": "fab", "progBarColor": "bg-info", "fAwesomeA": "fa-php", "fAwesomeTextColor": "text-info"  },
         { "name": "JS/jQuery", "strength" : 60, "fAwesome": "fab", "progBarColor": "bg-warning",  "fAwesomeA": "fa-js", "fAwesomeTextColor": "text-warning" },
-        { "name": "CCNA R&S", "strength" : 85, "fAwesome": "fas", "progBarColor": "bg-success",  "fAwesomeA": "fa-network-wired", "fAwesomeTextColor": "text-success" },
+        { "name": "IP Networking", "strength" : 85, "fAwesome": "fas", "progBarColor": "bg-success",  "fAwesomeA": "fa-network-wired", "fAwesomeTextColor": "text-success" },
         { "name": "Java", "strength" : 60, "fAwesome": "fab", "progBarColor": "bg-warning",  "fAwesomeA": "fa-java", "fAwesomeTextColor": "text-warning" },
         { "name": "HTML5/CSS3", "strength" : 80, "fAwesome": "fab", "progBarColor": "bg-danger",  "fAwesomeA": "fa-html5", "fAwesomeTextColor": "text-warning" },
         { "name": "Git", "strength" : 40, "fAwesome": "fab", "progBarColor": "bg-secondary",  "fAwesomeA": "fa-github", "fAwesomeTextColor": "text-secondary" },
-        { "name": "CompTia A+", "strength" : 85, "fAwesome": "fa", "progBarColor": "bg-success",  "fAwesomeA": "fa-desktop", "fAwesomeTextColor": "text-success" },
+        { "name": "CompTia A+", "strength" : 85, "fAwesome": "fa", "progBarColor": "bg-success",  "fAwesomeA": "fa-laptop", "fAwesomeTextColor": "text-success" },
         { "name": "IT Support", "strength": 75, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-teamspeak", "fAwesomeTextColor": "text-primary" },
         { "name": "Critical Thinking / Problem Solving", "strength": 70, "fAwesome": "fa", "progBarColor": "bg-danger",  "fAwesomeA": "fa-cogs", "fAwesomeTextColor": "text-danger" },
+        { "name": "Remote Technologies", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-warning",  "fAwesomeA": "fa-video-camera", "fAwesomeTextColor": "text-primary" },
         { "name": "Windows", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-windows", "fAwesomeTextColor": "text-primary" },
-        { "name": "Linux", "strength": 50, "fAwesome": "fab", "progBarColor": "bg-secondary",  "fAwesomeA": "fa-linux", "fAwesomeTextColor": "text-secondary" }
+        { "name": "Linux", "strength": 50, "fAwesome": "fab", "progBarColor": "bg-secondary",  "fAwesomeA": "fa-linux", "fAwesomeTextColor": "text-secondary" },
+        { "name": "Virtualization Technology", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-desktop", "fAwesomeTextColor": "text-primary" },
     ],
     "award": [
         {
@@ -155,7 +157,7 @@
         }
     ],
     "socials": [
-        { "link": "https://wa.me/2348066256475?text=Contact%20from%20portfolio", "fAwesome": "fab fa-whatsapp" },
+        { "link": "https://wa.me/353899616949?text=Contact%20from%20portfolio", "fAwesome": "fab fa-whatsapp" },
         { "link": "https://www.linkedin.com/in/samuel-chika-8278a89a", "fAwesome": "fab fa-linkedin" },
         { "link": "https://codepen.io/samuelchika", "fAwesome": "fab fa-codepen" },
         { "link": "https://www.github.com/samuelchika", "fAwesome": "fab fa-github" }
