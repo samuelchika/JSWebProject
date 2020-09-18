@@ -4,29 +4,30 @@
         "availability": "Immediately",
         "name" : "Samuel Chika Ezeja",
         "email": "samuelemyrs@gmail.com",
-        "summary": "IT Consultant / IT Support / Web Developer",
+        "summary": "IT Network / Technical Support | IT Consultant | Web Developer | I.T SUPPORT TECHNICIAN",
         "currentLocation": "Dublin, Ireland",
         "phone": "35389616949",
         "address": "Apartment 6, The Turnpike, Santy Cross, Ballymun Road, Dublin 11, Dublin, Ireland",
         "eircode" : "D11 H30P",
-        "profile" : "Web Developer (Full Stack), experience, developing and working with API. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including HTML5, PHP OOP, JavaScript, CSS3, Bootstrap 4, MySQL, Java OOP, Typescript, Node JS. Strong background in IP networking and customer relations. Target-driven, enthusiastic and bright individual, who is personable, outgoing and has the ability to work under pressure, as an individual or within a team. In order to be the best version of myself, it is imperative to be fully immersive in the industry of work and treating oneself as a brand. Product knowledge and industry insight gives an edge, and at the very least creates good rapport with clients.",
-        "profileSummary" : ["5 years+ experience in programming.", "4 years+ experience in IT Consultant.", "3 years+ in IT Support role."]
+        "profile" : "Detail-oriented and best-performing professional with over 4 years of extensive experience, very strong background in IT Support/ Technician, IT Consultancy and Software / Application Support with qualities such as self-discipline, team-player and ability to work with little or no supervision. Proven history of success with hardware and software. Expert in ensuring customers satisfaction - locally or remote. Skilled at providing support – remote or locally, for network, desktop, web technologies. Having exposure to a wide range of IT technologies & able to play a key role in diagnosing hardware, software and networking problems to ensure that quality solutions meet business objectives.",
+        "profileSummary" : ["Hardware: Cisco Catalyst switch 6960, Cisco Router 2911, Cisco Switch 2960, wireless access controllers, LAN cables etc.", 
+            "Software: HTML5/CSS3, JavaScript, Typescript, PHP-OOP, MySQL, Bootstrap 4, Microsoft Office, Windows, Git, Cisco IOS, GNS3, Packet Tracer, VMware workstation, Wireshark, Ubuntu, Android.", 
+            "Networking: Routing Protocols – TCP/IP, RIP, EIGRP, OSPF, BGP, HSRP. Infrastructure services – DHCP, DNS, SMTP, FTP, TFTP. LAN technologies – Ethernet, Fast / Gigabit / 10 Gigabit Ethernet. Port Channel – VLANS, VTP, STP, RSTP, 802.1Q. WAN Technologies - PPP, MPLS, BGP.", "Leadership: President National Youth Service Corps, Ikorodu, Lagos. Director of Research, National Association of Mathematics Student, FUTO Chapter.", "Others: Expert with planning, installing, maintaining and troubleshooting software and hardware in windows and networking (Cisco) environment."]
     },
     "experience": [{
-        "jobTitle" : "Level 1 & 2 Support.",
+        "jobTitle" : "IT NETWORK SUPPORT / TECHNICIAN.",
         "employer" : "National Petroleum Cooperation, Ikoyi, Lagos",
         "from" : "February 2019",
         "to" : "September 2019",
         "duration" : "8 month",
         "responsibilities" : [
             "Working with service providers.",
-            "Hardware / Software  - (Desktop / Mobile) support.",
+            "Hardware / Software  - (Desktop / Mobile) support.", "Investigated and diagnosed network problems", "Installed, maintained, repaired and upgrade Company’s Computer System, network printers and Networks that really made information sharing easy.", "Performed Upgrading and backups of Cisco router Configuration files using TFTP server.",
             "Maintain professionalism and courtesy, answering phone calls.",
-            "IP Networking – Remote and Local (Router, Wireless Networks, Managed Switches).",
-            "Documentation / report escalating issues to higher Tier - handwritten / mail.",
+            "Configured VLANs, VTP, Ether channels for proper optimization of the network.", "A positive “can do” attitude towards work, and our clients",
+            "Documentation / report escalating issues to higher Tier - handwritten / mail.", "Ensured all IT equipment complies with industry standards.",
             "Develop and manage IT enlightment training resource for staffs.",
-            "Remote Desktop Technologies (Teamviewer, Zoom etc.).",
-            "Virtualization Technology"
+            "Provided Local Area Network (LAN) Supports."
         ]
     },{
         "jobTitle" : "Web Development",
@@ -35,8 +36,8 @@
         "to" : "",
         "duration" : "1 month",
         "responsibilities" : [
-            "HTML5 / CSS3 / PHP / MySQL / BootStrap 4 / Vanilla JavaScript",
-            "ETL - Data Management for specific user priviledges."
+            "Develop project concepts and maintain optimal workflow.", "Work with senior developer to manage large, complex design projects for corporate clients.", "Complete detailed programming and development tasks for front end public and internal websites as well as challenging back-end server code.", "Carry out quality assurance tests to discover errors and optimize usability.",
+            "ETL - Data Management for specific user privileges.", "Remote Development - GitHub, TeamViewer"
         ]
     },{
         "jobTitle" : "IT Consultant",
@@ -45,23 +46,23 @@
         "to" : "November 2015",
         "duration" : "11 month",
         "responsibilities" : [
-            "Worked closely with department to analyze IT system requirements, information technology needs and their resources in order to plan IT projects and fulfill clients expectations.",
-            "Developed IT system specifications after evaluating departments expectation",
-            "Solved clients IT issues - Researched and purchased equipment / quality software, projected modifcations of software, hardware and networking.",
+            "Worked closely with department to analyze IT system requirements, information technology needs and their budget in order to plan IT projects and ensure customers satisfaction.",
+            "Developed IT system specifications after evaluating departments departments expectation to complier with industry standards",
+            "Solved clients IT issues - Researched and purchased equipment / quality software, documented plan for software, hardware and networking installation and maintainance.",
             "Decommission of bad computers/networks.",
-            "Installed and updated Windows 10, O, Microsoft 2f7ce Suite, Matlab, Norton 360.",
-            "DHCP, Wireless, TCP/IP."
+            "Installed and updated Windows 10, O, Microsoft Office Suite, Matlab, Norton 360.",
+            "Installed network technology: Wireless Access point, DHCP, TCP/IP, Access Control(Security)."
         ]
     },{
-        "jobTitle" : "Tier 1",
+        "jobTitle" : "I.T SUPPORT TECHNICIAN (INTERNSHIP)",
         "employer" : "National Petroleum Cooperation, Ikoyi, Lagos",
         "from" : "June 2014",
         "to" : "September 2019",
         "duration" : "6 month",
         "responsibilities" : [
-            "Ensure connectivity via VoIP / CLI (ping, tracecert, netstat...",
-            "Decommision bad desktops.",
-            "Setting up companies mail on staff desktop / mobile and password reset.",
+            "Performed Anti-Virus Program Installation and Virus Removal for Customers",
+            "Installed Printers, Computer and Network Systems Provided application support by handling users queries with an 80% accuracy.",
+            "Daily maintenance, monitoring and support of the IT server and systems infrastructure", "Troubleshoot networking, routing and inter connectivity issues, including troubleshooting of network device configuration and low-level application interaction- TCP/IP, DNS, DHCP, Layer 2/3 network devices.","Configure inter-vlan routing on Layer 3 Switches","Assisted the network manager with Installation, Configuration and Administration of Windows Servers 2000/2003, Active Directory, FTP, DNS, DHCP, TFTP, under various LAN and WAN environments.","Setting up companies mail on staff desktop / mobile and password reset.","Worked with the I.T team members to resolve Local Server Issues","Provided Network LAN Supports","Remote Desktop Troubleshooting.",
             "Obtain feedbacks and suggestions from staffs.",
             "Establishing timeline / report for escallating issues."
         ]
