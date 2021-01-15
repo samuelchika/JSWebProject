@@ -170,7 +170,7 @@ class Bio {
 
     getBioData():HTMLElement {
         const div = new ElementCreate('div');
-        div.setClasses(['my-4', 'p-4', 'col-md-6', 'mx-auto', 'col-sm-10']);
+        div.setClasses(['my-4', 'p-4', 'col-md-10', 'col-lg-10', 'mx-auto', 'col-sm-10']);
         div.setId('jumCont');
         const divBio = new ElementCreate('div');
         divBio.setClasses(['row', 'my-3', 'text-left', 'text-dark']);
