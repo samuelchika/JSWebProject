@@ -4,38 +4,53 @@
         "availability": "Immediately",
         "name" : "Samuel Chika Ezeja",
         "email": "samuelemyrs@gmail.com",
-        "summary": "IT Network / Technical Support | IT Consultant | Web Developer | I.T SUPPORT TECHNICIAN",
+        "summary": "IT Network / Technical Support | IT Consultant | Software Developer | I.T SUPPORT TECHNICIAN",
         "currentLocation": "Dublin, Ireland",
-        "phone": "353899616949",
+        "phone": "35389616949",
         "address": "Apartment 6, The Turnpike, Santy Cross, Ballymun Road, Dublin 11, Dublin, Ireland",
         "eircode" : "D11 H30P",
-        "profile" : "Detail-oriented and best-performing professional with over 4 years of extensive experience, very strong background in IT Support/ Technician, IT Consultancy and Software / Application Support with qualities such as self-discipline, team-player and ability to work with little or no supervision. Proven history of success with hardware and software. Expert in ensuring customers satisfaction - locally or remote. Skilled at providing support – remote or locally, for network, desktop, web technologies. Having exposure to a wide range of IT technologies & able to play a key role in diagnosing hardware, software and networking problems to ensure that quality solutions meet business objectives.",
-        "profileSummary" : ["Hardware: Cisco Catalyst switch 6960, Cisco Router 2911, Cisco Switch 2960, wireless access controllers, LAN cables etc.", 
-            "Software: HTML5/CSS3, JavaScript, Typescript, PHP-OOP, MySQL, Bootstrap 4, Microsoft Office, Windows, Git, Cisco IOS, GNS3, Packet Tracer, VMware workstation, Wireshark, Ubuntu, Android.", 
-            "Networking: Routing Protocols – TCP/IP, RIP, EIGRP, OSPF, BGP, HSRP. Infrastructure services – DHCP, DNS, SMTP, FTP, TFTP. LAN technologies – Ethernet, Fast / Gigabit / 10 Gigabit Ethernet. Port Channel – VLANS, VTP, STP, RSTP, 802.1Q. WAN Technologies - PPP, MPLS, BGP.", "Leadership: President National Youth Service Corps, Ikorodu, Lagos. Director of Research, National Association of Mathematics Student, FUTO Chapter.", "Others: Expert with planning, installing, maintaining and troubleshooting software and hardware in windows and networking (Cisco) environment."]
+        "profile" : "Result / Detail-oriented and best-performing professional with years of extensive experience, very solid background in IT Support / Technician, IT Consultancy and Software / Application Support with qualities such as self-discipline, team-player and ability to work with little or no supervision. Proven history of success with hardware and software. Expert in ensuring customers satisfaction - locally or remote. Skilled at providing support – remote or locally, for network, desktop, software technologies. Having exposure to a wide range of IT technologies & able to play a key role in diagnosing hardware, software and networking problems to ensure that quality solutions meet business objectives with zero downtime, leading teams and reaching goals.",
+        "profileSummary" : ["Systems: Experience working in mixed Windows/Linux, Database, Backups (Cloud) and virtualized / physical server environments",
+            "Software: HTML5/CSS3, JavaScript, jQuery, Typescript, React, Java (JavaFX), PHP-OOP, MySQL, Bootstrap 4, Microsoft Office, Windows, Git, Cisco IOS, GNS3, Packet Tracer, Virtualization, Wireshark, Ubuntu, Android.",
+            "Networking: Routing Protocols – TCP/IP, RIP, EIGRP, OSPF, BGP, HSRP. Infrastructure services – DHCP, DNS, SMTP, FTP, TFTP. LAN technologies – Ethernet, Fast / Gigabit / 10 Gigabit Ethernet. Port Channel – VLANS, VTP, STP, RSTP, 802.1Q. WAN Technologies - PPP, MPLS, BGP.", 
+            "Cloud Services: AWS: EC2, ELB, RDS, S3, VPC, Route 53, IAM, Lambda, Cloud Formation",
+            "Leadership: President National Youth Service Corps, Ikorodu, Lagos. Director of Research, National Association of Mathematics Student, FUTO Chapter.", 
+            "Others: Expert with planning, installing, maintaining and troubleshooting software and hardware in windows and networking (Cisco) environment."]
     },
     "experience": [{
+        "jobTitle" : "Software Developer (Freelance)",
+        "employer" : "Self Employed",
+        "from" : "2018",
+        "to" : "",
+        "duration" : "Till Date",
+        "responsibilities" : [
+            "Software Development",
+            "Troubleshooting",
+            "Support"
+        ]
+    },{
         "jobTitle" : "IT NETWORK SUPPORT / TECHNICIAN.",
         "employer" : "National Petroleum Cooperation, Ikoyi, Lagos",
         "from" : "February 2019",
         "to" : "September 2019",
         "duration" : "8 month",
         "responsibilities" : [
-            "Working with service providers.",
-            "Windows and Office 365 setup and administration",
-            "Hardware / Software  - (Desktop / Mobile) support.", "Investigated and diagnosed network problems", "Manage and update IT inventory", "User account configuration: permissions and password management", "Installed, maintained, repaired and upgrade Company’s Computer System, network printers and Networks that really made information sharing easy.", "Configuring and supporting all networked devices", "Performed Upgrading and backups of Cisco router Configuration files using TFTP server.",
-            "Maintain professionalism and courtesy, answering phone calls.",
-            "Configured VLANs, VTP, Ether channels for proper optimization of the network.", "A positive “can do” attitude towards work, and our clients",
-            "Documentation / report escalating issues to higher Tier - handwritten / mail.", "Ensured all IT equipment complies with industry standards.",
-            "Develop and manage IT enlightment training resource for staffs.",
-            "Provided Local Area Network (LAN) Supports."
+            "Support end users - Office 360, user account configuration (Active Directory), Hardware and Software. Design, Installation, Troubleshooting and maintainance of PC / Networks.",
+                "Working with service providers.",
+                "Windows and Office 365 setup and administration",
+                "Hardware / Software  - (Desktop / Mobile) support.", "Investigated and diagnosed network problems", "Manage and update IT inventory", "User account configuration: permissions and password management", "Installed, maintained, repaired and upgrade Company’s Computer System, network printers and Networks that really made information sharing easy.", "Configuring and supporting all networked devices", "Performed Upgrading and backups of Cisco router Configuration files using TFTP server.",
+                "Maintain professionalism and courtesy, answering phone calls.",
+                "Configured VLANs, VTP, Ether channels for proper optimization of the network.", "A positive “can do” attitude towards work, and our clients",
+                "Documentation / report escalating issues to higher Tier - handwritten / mail.", "Ensured all IT equipment complies with industry standards.",
+                "Develop and manage IT enlightment training resource for staffs.",
+                "Provided Local Area Network (LAN) Supports."
         ]
     },{
-        "jobTitle" : "Web Development",
+        "jobTitle" : "Software Development",
         "employer" : "Divine Mercy Catholic Church, Ikorodu, Lagos",
         "from" : "September 2018",
-        "to" : "",
-        "duration" : "1 month",
+        "to" : "January 2019",
+        "duration" : "5 month",
         "responsibilities" : [
             "Develop project concepts and maintain optimal workflow.", "Work with senior developer to manage large, complex design projects for corporate clients.", "Complete detailed programming and development tasks for front end public and internal websites as well as challenging back-end server code.", "Carry out quality assurance tests to discover errors and optimize usability.",
             "ETL - Data Management for specific user privileges.", "Remote Development - GitHub, TeamViewer"
@@ -116,7 +131,7 @@
             "body": "Udemy",
             "online": true,
             "link": "https://udemy.com",
-            "certId": ""
+            "certId": "Certificate of completion"
         }]
     },
     "skills": [
@@ -132,7 +147,8 @@
         { "name": "Remote Technologies", "strength": 80, "fAwesome": "fa", "progBarColor": "bg-warning",  "fAwesomeA": "fa-video-camera", "fAwesomeTextColor": "text-warning" },
         { "name": "Windows", "strength": 80, "fAwesome": "fab", "progBarColor": "bg-primary",  "fAwesomeA": "fa-windows", "fAwesomeTextColor": "text-primary" },
         { "name": "Linux", "strength": 50, "fAwesome": "fab", "progBarColor": "bg-secondary",  "fAwesomeA": "fa-linux", "fAwesomeTextColor": "text-secondary" },
-        { "name": "Virtualization Technology", "strength": 80, "fAwesome": "fa", "progBarColor": "bg-primary",  "fAwesomeA": "fa-desktop", "fAwesomeTextColor": "text-primary" }
+        { "name": "Virtualization Technology", "strength": 80, "fAwesome": "fa", "progBarColor": "bg-primary",  "fAwesomeA": "fa-desktop", "fAwesomeTextColor": "text-primary" },
+        { "name": "DevOps", "strength": 50, "fAwesome": "fab", "progBarColor": "bg-warning",  "fAwesomeA": "fa-aws", "fAwesomeTextColor": "text-warning" }
     ],
     "award": [
         {
